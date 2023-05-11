@@ -1,23 +1,17 @@
-# Sproutify Web
+downloand file call npm i 
 
-Sample code associated with the _Getting started with Marqeta APIs_ webinar.
+create a new new doc and name it .env should be in the same path as package.json
 
-This code is for demonstration purposes only.
+in this file you need to paste this and fill in the details of the blank constants:
 
-## Development
+SECRET_COOKIE_PASSWORD='2gyZ3GDw3LHZQKDhPmPDL3sjREVRXPr8'
 
-This app was created with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+MARQETA_API_BASE_URL=
+MARQETA_API_USERNAME=
+MARQETA_API_PASSWORD=
+STATIC_DIR="./pages"
+STRIPE_SECRET_KEY=
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+MONGODB_URI=
 
-```bash
-npx create-next-app --example with-iron-session with-iron-session-app
-# or
-yarn create next-app --example with-iron-session with-iron-session-app
-```
-
-Run the app locally:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
+then call npm run dev
